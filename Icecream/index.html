@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+   <html>
+      <head>
+      <title> IceCream</title>
+      <meta name = "viewport" content = "width = device, initial-scale = 1.0"/>
+      <meta name = "description" content = "Icecream | Tamilnadu Icecream | chocobars | cone icecream"/>
+      <meta name = "keywords" content = " Icecream, cone icecreams, chocobars, vanilla icecreams, flavoured icecreams"/>
+      <link rel = "stylesheet" href = "style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link  href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+      </head>
+      <body>
+        <section class ="header">
+            <nav>
+               <a href="#"><img src="images/Ice-Cream-Logo.png" alt=" logo" width = "50" height = "50"/></a>
+                 <div class="nav-links" id ="navLinks">
+                  <i class="fa fa-times" onclick = "hideMenu()"></i>
+                    <ul>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">ABOUT US</a></li> 
+                        <li><a href="#">PRODUCTS</a></li>
+                        <li><a href="#">RECIPES</a></li>
+                        <li><a href="#">CARBON CUTTING</a></li>
+                        <li><a href="#">WHERE TO BUY</a></li>
+                    </ul>   
+                 </div>
+                 <i class="fa fa-bars" onclick = "showMenu()"></i>
+               </nav>
+         <div class = "text-box">
+            <h1> CRAFT . JOY . PLANET</h1>
+            <p> We're Love Ice-creams, and we love crafting <br> unbelievably delicious stripey tubs of joy.</p>
+            <a href = "#" class = "main-button"> Taste here!!! </a>
+         </div>
+        </section>
+        <section class = "about">
+         <h1> Welcome to our Spot!!!</h1>
+         <p> We are certified B Corp, as we believe in business as a force for good. We create both super indulgent <br> and healthier products  whilst treading as lightly as we can on our planet, <br> and have reduced our carbon intensity by 21% since 2020.</p>
+         <h2> Our Specials!!</h2>
+         <!-- <hr> -->
+         <div class="row">
+            <div class="specials-col">
+               <h3>Cones</h3>
+               <p> A range of crunchy cones with a host of delightful flavours to keep your palate engaged! Available in different sizes to satisfy your level of craving</p>
+            </div>
+            <div class="specials-col">
+               <h3> Bars</h3>
+               <p>Everyone loves a good ice cream bar. Well, with our range we have something for everybody.</p>
+            </div>
+         
+            <div class="specials-col">
+               <h3> Tubs</h3>
+               <p>Our range of tubs lets you share your favourite ice cream flavours with friends and family. You can also indulge with a whole tub to yourself!</p>
+            </div>
+         </div>
+
+      </section>
+
+      <!-- flavours -->
+      <section class ="flavours">
+         <div class="fla">
+            <h3>Try Our most Delicious Flavours</h3>
+            <p>Our range of tubs lets you share your favourite ice cream flavours with friends and family. You can also indulge with a whole tub to yourself!</p>
+         </div>
+
+      </section>
+      
+
+<!--- Toggle Menu Js-->
+
+         <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+               navLinks.style.right ="0";
+            }
+            function hideMenu(){
+               navLinks.style.right ="-200px";
+            }
+            
+         </script>
+      </body>
+    </html>
